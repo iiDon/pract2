@@ -1,0 +1,119 @@
+* {
+    padding:0;
+    margin: 2.3%;
+    font-family: Acme;
+   
+}
+body{
+background-color: rgba(37, 58, 61, 0.856);
+}
+.sec1 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  padding: 250px;
+  height: 30%;
+  width: 50%;
+  border-radius: 25px;
+  border: groove rgb(195, 199, 200) 5px;
+}
+
+.sec2 { 
+  background-color: rgb(7, 125, 180);
+  position: absolute;
+  top: 5%;
+  right: 55%;
+  padding: 250px;
+  height: 30.5%;
+  width: 8%;
+  border-radius: 25px 0px 0px 25px ;
+  border: groove rgb(7, 125, 180) 2.5px;
+
+}
+.secimg{
+  position: absolute;
+  top: 20%;
+  right: 68%;
+  width: 8%;
+  color: black;
+  background-color: rgb(7, 125, 180) ;
+}
+.secregform{
+  position: absolute;
+  top: 40%;
+  right: 60%;
+  width: 20%;
+  color: black;
+  font-size: 30px;
+  font-family: Acme;
+}
+.arr{
+  position: absolute;
+  top: 65%;
+  right: 70%;
+  border-radius: 100%;
+  color:  rgb(7, 125, 180);
+  background-color: black ;
+}
+.Name {
+  position: absolute;
+  top: 16%;
+  right: 38%;
+  width: 10%;
+  font-size: 30px;
+}
+input[type = "text"],input[type = "email"],input[type = "date"] {
+ width: 300px;
+ height: 40px;
+ border-radius: 5px;
+ text-align: center;
+ background-color: rgba(41, 136, 160, 0.397) ;
+ border: rgb(37, 123, 145) 2px solid;
+ 
+}
+::placeholder{
+  color: rgba(0, 0, 0, 0.363);
+  font-family: Acme;
+  font-size: 20px;
+}
+.fill1{
+  position: absolute;
+  top: 15%;
+  right: 20%;
+}
+.sex{
+  position: absolute;
+  top: 23%;
+  font-size: 25px;
+}
+.radios{
+  position: absolute;
+  top: 23.5%;
+  right: 40%;
+}
+.MS{
+  position: absolute;
+  top: 54.5%;
+  font-size: 30px;
+}
+.MS1{
+  position: absolute;
+  top: 55.5%;
+  font-size: 30px;
+}
+.send{
+  position: absolute;
+  top: 65%;
+  right: 30%;
+  font-size: 35px;
+  border-radius: 5px;
+  border: 20px;
+  padding: 15px 25px 15px 25px;
+  background-color: rgba(200, 200, 200, 0.781);
+
+}
+.send:hover{
+  background-color: rgb(7, 125, 180) ;
+  color: white;
+}
